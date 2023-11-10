@@ -46,3 +46,12 @@ html {
   color: white;
   text-align: left;
 }
+
+.container {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr;
+}
+
+.header {
+  grid-area: 1 / 1 / 4 / 1;
+}
